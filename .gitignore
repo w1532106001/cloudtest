@@ -1,0 +1,4 @@
+# Project exclude paths
+/client/target/
+/ribbon-client/target/
+/server/target/

@@ -1,0 +1,10 @@
+server:
+  port: 8180
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false #是否像注册中心注册自身
+    fetch-registry: false #是否需要检索服务
+    service-url:
+      defaultZone: http://127.0.0.1:8180/eureka/
